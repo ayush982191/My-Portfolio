@@ -1,3 +1,4 @@
+console.log("Entering at console");
 let nav=document.querySelector(".navbar");
 window.onscroll=function(){
     if(document.documentElement.scrollTop>20){

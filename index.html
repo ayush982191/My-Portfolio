@@ -1,56 +1,315 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Protfoli page by ayush</title>
-
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS and cdn links -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>Hello, world!</title>
     <!-- custom files by me  -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive-style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/resstyle.css" />
   </head>
   <body>
-    <!-- <h1>Hello, world!</h1> -->
-    <!-- navigation part  -->
-    <div class="header_wraper">
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="images/logo.webp" alt="Logo display" class="img-fluid">
-              </a>
-              
-              
-              
-              
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <!-- <span class="navbar-toggler-icon"></span>   -->
-                <i class="fas fa-stream navbar-toggler-icon" ></i>
-              </button>
+    <header class="header_wraper container">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="">
+            <img src="images/ayushlogo.jpeg" alt="" />
+          </a>
+        </div>
 
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#Education">Education</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#Portfolio">Portfolio</a>  </li>
-                 
-                  <!-- <a class="nav-link disabled">Disabled</a> -->
-                </div>
-              </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav menu_navbar_nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- sectinal part start here  -->
+    <section id="home" class="banner_wrapper mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 order-lg-1 order-2 banner_content">
+            <h2 class="text-uppercase position-relative">Hello</h2>
+            <h1 class="text-uppercase">My name is Ayush Kumar</h1>
+            <h5 class="text-uppercase">Full stack developer</h5>
+            <div class="mt-5">
+              <a class="main-btn primary-btn" href="#">Hire Me</a>
+              <a class="main-btn secondary-btn ms-4" href="#">Get Cv</a>
             </div>
-          </nav>
-    </div>
+          </div>
+          <div class="col-lg-5 order-lg-2 order-1">
+            <div class="top-right-img">
+              <img
+                style="border-radius: 60%"
+                src="images/home_right.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- Optional JavaScript -->
+    <section id="services" class="about_wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <img src="images/aboutme.jpeg" class="img-fluid" alt="about-us" />
+          </div>
+          <div class="col-lg-5 mb-3 mb-4 mb-lg-0">
+            <h3>Let's <br />Introduce about <br />myself</h3>
+            <p>
+              Hi,my name is Ayush Kumar.I am graduating from Jain University
+              where I completed my bachelor in Technology.There I completed my
+              internships as a web developer.
+            </p>
+            <p>
+              I am interested in the role of web developer where I can show my
+              skills in web development.The web development languages in which I
+              am comforable are: HTML,CSS,JavaScript,Mongodb,Rest API's.
+            </p>
+            <a
+              href="pdf/AyushKumar-Resume.pdf"
+              class="main-btn primary-btn mt-4"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services_wrapper">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-12 text-center mb-5">
+                  <h2>SERVICE OFFERS</h2>
+                  <p>Currently service providing sectors <br
+                          class="d-none d-lg-block">
+                      *These Services are based on the availablity of resources*</p>
+              </div>
+              <div class="col-lg-3 col-sm-6 mb-4">
+                  <div class="card rounded-0 border-0 text-center py-5 px-3">
+                      <div>
+                          <img class="img-fluid" decoding="async" src="./images/sol1.jpeg">
+                      </div>
+                      <h5 class="text-uppercase mt-4 mb-3">Web DEVELOPment</h5>
+                      <!-- <p></p> -->
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 mb-4">
+                  <div class="card rounded-0 border-0 text-center py-5 px-3">
+                      <div>
+                          <img class="img-fluid"  decoding="async" src="./images/serviceimg2.jpg">
+                      </div>
+                      <h5 class="text-uppercase mt-4 mb-3">UI/UX DESIGN</h5>
+                      <!-- <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p> -->
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 mb-4">
+                  <div class="card rounded-0 border-0 text-center py-5 px-3">
+                      <div>
+                          <img class="img-fluid"  decoding="async" src="./images/img3.jpeg">
+                      </div>
+                      <h5 class="text-uppercase mt-4 mb-3">WEB DESIGN</h5>
+                      <!-- <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p> -->
+                  </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 mb-4">
+                  <div class="card rounded-0 border-0 text-center py-5 px-3">
+                      <div>
+                          <img class="img-fluid"  decoding="async" src="./images/serviceimg4.jpeg">
+                      </div>
+                      <h5 class="text-uppercase mt-4 mb-3">SEO OPTIMIZE</h5>
+                      <!-- <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p> -->
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="eduexp" id="education">
+    <h3>Education and Experiences</h3>
+    <div class="educationandexperience container">
+   
+      <div class="row">
+        
+        <div class="col-sm eandeleft">
+       
+         <ul>
+            <li>
+                <div class="course eemrpd"><h4>B.tech</h4>
+                </div>
+                <div class="academy eemrpd">Jain University</div>
+                <div class="year eemrpd">2019-2013</div>
+            </li>
+            <li>
+                <div class="course eemrpd"><h4>Senior Secondary</h4>
+                </div>
+                <div class="academy eemrpd">Paramount Academy</div>
+                <div class="year eemrpd">2018-2019</div>
+            </li>
+         
+            
+         </ul>
+    
+      
+        
+      </div>
+      <div class="col-sm eanderight">
+        <!-- <h3>Experiences</h3> -->
+        <ul>
+            <li>
+                <div class="designation eemrpd"><h4>Web Developer</h4>
+                </div>
+                <div class="organization eemrpd">Internsland</div>
+                <div class="workingyear eemrpd">June 2019- Sept 2013</div>
+            </li>
+            <li>
+                <div class="designation eemrpd"><h4>Primary School</h4>
+                </div>
+                <div class="organization eemrpd">Lyceun International School</div>
+                <div class="workingyear eemrpd">2015-2016</div>
+            </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+   
+   
+   <section class="container" id="contact">
+    <div class="row">
+      <div class="col-lg-6 col-md-10 ">
+        <img
+          src="images/contactus.png"
+          class="img-fluid"
+          alt="contact_us"
+        />
+      </div>
+
+      <div class="col-lg-6 col-md-10 formcontainer">
+        <div class="">
+          <h2>Contact Us</h2>
+          <form action="">
+            <input
+              type="text"
+              class="input_field"
+              name=""
+              placeholder="Your Name"
+              id=""
+            />
+            <input
+              type="text"
+              class="input_field"
+              name=""
+              placeholder="Your Email"
+              id=""
+            />
+            <textarea
+              name=""
+              class="input_field textarea_field"
+              placeholder="Please type your query"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <div class="d-flex justify-content-center">
+              <Button class="main-btn secondary-btn ms-4" >Submit</Button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+   </section> 
+ <div class="footer_wrapper">
+  <div class="container mt-5" >
+    <div class="row align-items-center justify-content-center">
+      <div class="col-12 text-center">
+        <div class="footer-logo mb-3 mb-md-0">
+          <img src="" class="img-fluid" alt="" >
+        </div>
+        <div>
+          <div class="my-4 social-icons">
+            <ul class="list-unstyled d-flex justify-content-center align-items-center">
+            <li><a href="https://www.linkedin.com/in/ayushkumar0209"><i class="bi bi-linkedin"></i></a></li>  
+            <li><a href="mailto:ayushkumar982191@gmail.com"><i class="bi bi-envelope"></i></a></li> 
+            <li><a href="tel:+918935982191"><i class="bi bi-person-lines-fill"></i></a></li> 
+            <li><a href=""><i class="bi bi-twitter"></i></a></li>
+
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+   </div>
+ </div>
+ <section class="m-0 p-0 mb-3">
+  <p class="text-center m-0 p-0" >Copyright @2023 All rights reserved | This website belongs to <a href="#">Ayush Kumar</a></p>
+ </section>
+   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
